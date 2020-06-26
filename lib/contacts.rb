@@ -21,4 +21,9 @@ def remove_strawberry(contacts)
     data.each do | attribute, value|
       
       if value == "Freddy" 
+        favorite_ice_cream_flavors.pop
+      end
+    end
+  end
+  
 end
